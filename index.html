@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="navbar">
+                <div class="nav-option1" style="opacity: 1;">
+                    <a>
+                        <i class='bx bxl-spotify' style='color:white ;font-size: x-large;'></i>
+                        <span href="#">Spotify</span>
+                    </a>
+                </div>
+                <div class="nav-option" style="opacity: 1;">
+                    <a>
+                        <i class="fa-solid fa-house"></i>
+                        <span href="#">Home</span>
+                    </a>
+                </div>
+                <div class="nav-option ">
+                    <a>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span href="#">Search</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options">
+                        <img src="./Assets/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="lib-boxes">
+                    <div class="box1">
+                        <p class="boxp1">Create your first
+                            playlist</p>
+                        <p class="boxp2">It's easy,We'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box2">
+                        <p class="boxp1">Let's Find some poadcasts to Follow</p>
+                        <p class="boxp2">We'll keep you updates on new episodes</p>
+                        <button class="badge">Browse poadcasts</button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="linksdiv">
+                <div class="linkss">
+                    <a href="#">legal</a>
+                    <a href="#">Safety&privacycentre</a>
+                    <a href="#">Privacypolicy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">AboutAds</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Cookies</a>
+                    <br>
+                    <br>
+                    <button id="bg3" class="badge3"> <i class='bx bx-globe' style=color:white;></i>English</button>
+                </div>
+                  
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="stickynav sticky">
+                <div class="icons">
+                    <img class="sticky-nav1" src="./Assets/backward_icon.png">
+                    <img class="sticky-nav2" src="./Assets/forward_icon.png">
+                </div>
+                <div class="sticky-nav-options">
+                    <button id="bg1" class="badge nav-item">Sign Up</button>
+                    <button id="bg2" class="badge nav-item ">Login</button>
+
+                </div>
+
+            </div>
+            <div class="head">
+                <h2>Popular Artists</h2>
+                <a href="#" class="showall">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class=" card1">
+                    <img class="card card-img" src="./Assets/Pritam.jpeg">
+                    <i class='bx bx-play-circle'></i>
+                    <p class="card card-title">Pritam</p>
+                    <p class="card  card-info">Artist</p>
+                </div>
+
+                <div class="card card2">
+                    <img class="card card-img" src="Assets/Karan Ajula2.jpeg">
+                    <p class="card card-title">Karan Ajula</p>
+                    <p class="card  card-info">Artist</p>
+                </div>
+                <div class="card card3">
+                    <img class="card card-img" src="./Assets/Arijit Singh2.jpg">
+                    <p class="card card-title">Arijit Singh</p>
+                    <p class="card  card-info">Artist</p>
+                </div>
+                <div class="card card4">
+                    <img class="card card-img" src="./Assets/Shubh.jpeg">
+                    <p class="card card-title">Shubh</p>
+                    <p class="card  card-info">Artist</p>
+                </div>
+                <div class="card card5">
+                    <img class="card card-img" src="./Assets/Atif Aslam.jpeg">
+                    <p class="card card-title">Atif Aslam</p>
+                    <p class="card  card-info">Artist</p>
+                </div>
+            </div>
+            <br>
+            <div class=" head">
+                <h2 class="h2">Popular albums</h2>
+                <a href="#" class="showall">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class="card card6">
+                    <img class="card card-img" src="./Assets/Rockstar Without.jpeg">
+
+                    <p class="card card-title">Rockstar Without...</p>
+                    <p class="card card-info">Umair</p>
+                </div>
+                <div class="card card7">
+                    <img class="card card-img" src="./Assets/Still Robinns.jpeg">
+
+                    <p class="card card-title">Still Robbin</p>
+                    <p class="card card-info">Shubh</p>
+                </div>
+                <div class="card card8">
+                    <img class="card card-img2" src="./Assets/Making Memories.jpeg">
+
+                    <p class="card card-title">Making Memories</p>
+                    <p class="card card-info">Karan Aujla,IKKy</p>
+                </div>
+                <div class="card card9">
+                    <img class="card card-img2" src="./Assets/Moosetape.jpeg">
+
+                    <p class="card card-title">Moosetape</p>
+                    <p class="card card-info">Sidhu Moose Waala</p>
+                </div>
+                <div class="card card10">
+                    <img class="card card-img2" src="./Assets/JHOL.jpeg">
+
+                    <p class="card card-title">Jhol</p>
+                    <p class="card card-info">Maanu, Anuraal khalid</p>
+                </div>
+            </div>
+            <br>
+            <div class=" head">
+                <h2 class="h2">Popular radio</h2>
+                <a href="#" class="showall">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class="card card11">
+                    <img class="card card-img2" src="./Assets/Arijit Singh radio.jpg">
+
+                    <p class="card card-title">Arijit Singh radio</p>
+                    <p class="card card-info">With Neha kakkar,Pritim,KK <br /> and more</p>
+                </div>
+                <div class="card card12">
+                    <img class="card card-img2" src="./Assets/Kaifi Khalil.jpg">
+
+                    <p class="card card-title">Kaifi Khalil Radio</p>
+                    <p class="card card-info">With Yashal Shahid,Azaan Sami Khan</p>
+                </div>
+                <div class="card card13">
+                    <img class="card card-img2" src="./Assets/Nusrat Fateh ali Khan.jpg">
+                    <p class="card card-title">Nusrat Fateh ali khan</p>
+                    <p class="card card-info">With Abida Parveen,Attah ullah Khan</p>
+                </div>
+                <div class="card card14">
+                    <img class="card card-img2" src="./Assets/Shubh radio.jpg">
+                    <p class="card card-title">Shubh radio</p>
+                    <p class="card card-info">With A.P. Dhillon,Gurinder Gill</p>
+                </div>
+                <div class="card card15">
+                    <img class="card card-img2" src="./Assets/Sidhu Moose  Waala.jpg">
+
+                    <p class="card card-title">Sidhu Moose Walla</p>
+                    <p class="card card-info">With Ammy Virk,Amrit maan,Karan Ajuja</p>
+                </div>
+
+            </div>
+            <div class=" head">
+                <h2 class="h2">Featured Charts</h2>
+                <a href="#" class="showall">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class="card card16">
+                    <img class="card card-img2" src="./Assets/region_global_default (1).jpg">
+                    <p class="card card-title">Top Songs-Global</p>
+                    <p class="card card-info">
+                        Your weekly update of the most played tracks ....</p>
+                </div>
+                <div class="card card17">
+                    <img class="card card-img2" src="./Assets/TopSONGS.USA.jpg">
+                    <p class="card card-title">Top Songs-USA</p>
+                    <p class="card card-info">Your weekly update of the most played tracks .....</p>
+                </div>
+                <div class="card card18">
+                    <img class="card card-img2" src="./Assets/Top 50-Global.jpg">
+                    <p class="card card-title">Top 50-Global</p>
+                    <p class="card card-info">Your daily update of the most played tracks rig....</p>
+                </div>
+                <div class="card card19">
+                    <img class="card card-img2" src="./Assets/Top 50 USA.jpg">
+
+                    <p class="card card-title">Top 50-USA</p>
+                    <p class="card card-info">Your daily update of the most played tracks rig...</p>
+                </div>
+                <div class="card card20">
+                    <img class="card card-img2" src="./Assets/Viral 50 Global.jpg">
+                    <p class="card card-title">Top 50-GLOBAL</p>
+                    <p class="card card-info">Your daily update of the most played tracks right.......</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="footer">
+                <div class="nav-links">
+                    <div class="bg121212 inline">
+                        <ul class="bg121212">
+                            <p class="bg121212">Company</p>
+                            <span class="bg121212"><a href="">About</a></span>
+                            <span class="bg121212"><a href="">Jobs</a></span>
+                            <span class="bg121212"><a href="">For the record</a></span>
+                        </ul>
+                    </div>
+                    <div class="bg121212 inline">
+                        <ul class="bg121212">
+                            <p class="bg121212">Communities</p>
+                            <span class="bg121212"><a href="">For artists</a></span>
+                            <span class="bg121212"><a href="">Developers</a></span>
+                            <span class="bg121212"><a href="">Advertising</a></span>
+                            <span class="bg121212"><a href="">Investors</a></span>
+                            <span class="bg121212"><a href="">Vendors</a></span>
+                        </ul>
+                    </div>
+                    <div class="bg121212 inline">
+                        <ul class="bg121212">
+                            <p class="bg121212">Useful links</p>
+                            <span class="bg121212"><a href="">Support</a></span>
+                            <span class="bg121212"><a href="">Free Mobile apps </a></span>
+
+                        </ul>
+                    </div>
+                    <div class="bg121212 inline">
+                        <ul class="bg121212">
+                            <p class="bg121212">Spotify plans</p>
+                            <span class="bg121212"><a href="">Premium Individual</a></span>
+                            <span class="bg121212"><a href="">Premium Duo</a></span>
+                            <span class="bg121212"><a href="">Premium Family</a></span>
+                            <span class="bg121212"><a href="">Premium Student</a></span>
+                            <span class="bg121212"><a href="">Spotify free</a></span>
+                        </ul>
+                    </div>
+                    <div class="nav-icons">
+                        <div class="inlineicon"><box-icon name='whatsapp' type='logo'
+                                color='rgba(222,244,244,0.98)'></box-icon></div>
+                        <div class="inlineicon"><box-icon name='facebook-circle' type='logo'
+                                color='rgba(241,233,233,0.98)'></box-icon></div>
+                        <div class="inlineicon"><box-icon name='twitter' type='logo'
+                                color='rgba(241,233,233,0.98)'></box-icon></div>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+    
+
+        </div>
+    </div>
+   <div class="foot">
+    <ul class="p-foot">
+    <li class="p-foot">Preview of Spotify</li>
+    <li class="p-foot">Sign up to get unlimited songs and poadcasts with occassional ads.No credit cards needed</li>
+</ul>
+    <button id="bg2" class="badge nav-item btn-foot">Sign up for free</button>
+</div>
+
+    <script src="1.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
