@@ -1,0 +1,185 @@
+*{
+    background-color: #121212;
+}
+.logo{
+    height: 25px;
+    width: 35px;
+    padding-top:36px ;
+    margin-bottom: 0 !important;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    margin-bottom: 0 !important;
+}
+.signup{
+   
+    width: 300px;
+    background-color: #121212;
+    height: 600px;
+   
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.firstp{
+    color: white;
+    
+}
+
+input{
+    border: none;
+    width:85%;
+    background-color: #121212;
+    padding: 15px 25px 10px 10px;
+    position: relative;
+    bottom: 6px;
+    border: 1px solid rgba(32, 119, 119, 0.467);
+    color: whitesmoke;
+    
+}
+input:hover{
+    border: 1px solid white;
+}
+.btn-submit{
+    width: 97%;
+    background-color: #121212;
+    border: none;
+    background-color: #1ED760;
+    margin-top:10px ;
+    padding: 15px 25px 10px 10px;
+    border-radius: 290px;
+}
+.btn-submit:hover{
+    cursor: pointer;
+}
+.btn-google{
+    width: 97%;;
+    background-color: #121212;
+    color: white;
+    border: none;
+    margin-top:10px ;
+    padding: 15px 25px 10px 10px;
+    border-radius: 290px;
+    border: 1px solid rgba(32, 119, 119, 0.467);
+    font-weight: bold;
+}
+.btn-google i {
+    position: relative;
+    left: -20px;
+}
+.btn-google:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-facebook{
+    width: 97%;
+    background-color: #121212;
+    color: white;
+    border: none;
+    margin-top:10px ;
+    padding: 15px 25px 10px 10px;
+    border-radius: 290px;
+    border: 1px solid rgba(32, 119, 119, 0.467);
+    font-weight: bold;
+}
+.btn-facebook i {
+    position: relative;
+    left: -12px;
+}
+.btn-facebook:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-Apple{
+    width: 97%;
+    background-color: #121212;
+    color: white;
+    border: none;
+    margin-top:10px ;
+    padding: 15px 25px 10px 10px;
+    border-radius: 290px;
+    border: 1px solid rgba(32, 119, 119, 0.467);
+    font-weight: bold;
+} 
+.btn-Apple i {
+    position: relative;
+    left: -22px;
+}
+.btn-Apple:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.line{
+    border: 1px solid white;
+    width: 90%;
+    opacity: 0.5;
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+    margin-top: 28px ;
+    margin-bottom: 20px ;
+    
+}
+.line1{
+    border: 1px solid white;
+    width: 40%;
+    opacity: 0.5;
+    display: inline-block;
+    height: 0.05px;
+}
+.p{
+    color: white;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+.line2{
+    border: 0.1px solid white; 
+    opacity: 0.5;
+    height: 0.05px;
+    width: 40%;
+    display: inline-block;
+     margin-left: 0.5rem;
+}
+.loginp{
+    opacity: 0.5;
+    padding: 0 !important;
+    position: relative;
+    left: 25px;
+    color: white;
+}
+.desc{
+    font-size: x-small;
+    opacity: 0.7; 
+    text-align: center;
+    padding: 0 !important;
+    color: white;
+    position: relative;
+    left: -10px;
+}
+.desc a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.a a{
+    text-decoration: underline;
+    color: white;
+    position: relative;
+    left: 25px;
+    color: white;
+}
+.a a:hover{
+    cursor: pointer;
+}
