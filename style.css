@@ -215,15 +215,16 @@
     text-decoration: underline;
 }
 #bg3 {
-    font-size: 0.75rem;
+    font-size: 0.55rem;
     font-weight: bold;
     background-color: inherit;
     color: white;
     opacity: 0.75;
+    margin-left: 5px;
 }
 #bg3 i{
     background-color: inherit;
-    padding-right: 5px;
+    padding-right: 3px;
 }
 .badge3{
     border: none;
@@ -397,6 +398,7 @@ h2 {
     border-radius: 0.3rem;
     width: 9.6rem;
 }
+
 .card1{
     margin-left: 4px;
 }
