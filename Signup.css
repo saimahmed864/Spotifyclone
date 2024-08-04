@@ -60,7 +60,7 @@ input:hover{
     background-color: #1ED760;
     margin-top:10px ;
     padding: 15px 25px 10px 10px;
-    border-radius: 290px;
+    border-radius: 100px;
 }
 .btn-submit:hover{
     cursor: pointer;

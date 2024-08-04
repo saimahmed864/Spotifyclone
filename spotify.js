@@ -1,4 +1,6 @@
 let btn=document.querySelector(".btn1")
-btn.addEventListener("onmouseenter",
-    alert("btn was clicked")
+console.log(btn)
+btn.addEventListener("click",function(){
+alert("you are redirecting to login page")
+}
 )

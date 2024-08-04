@@ -1,0 +1,144 @@
+*{
+    background-color: #231a1a;
+}
+.mains{
+    width: 100%;
+    height: 700px;
+    background-color: #231a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.login{
+    background-color: #121212;
+    height:100%;
+    width: 600px;
+    margin-top: 40px;
+    border-radius:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.logodiv{
+    padding-top: 40px;
+    background-color: #121212;
+}
+h1{
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: x-large;
+    font-family: CircularSp, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.buttons li{
+    background-color: #121212;
+    margin: 0;
+}
+.buttons{
+    background-color: #121212;
+    margin: 0px;
+    padding: 0px;
+}
+.btn-google{
+    width:50%;
+    background-color: #121212;
+    color: white;
+    border: none;
+    margin-top:10px ;
+    padding: 15px 25px 10px 10px;
+    border-radius: 100px;
+    border: 1px solid rgba(32, 119, 119, 0.467);
+    font-weight: bold;
+
+}
+.btn-google i {
+    position: relative;
+    left: -20px;
+}
+.btn-google:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-facebook{
+    width:50%;
+    background-color: #121212;
+    color: white;
+    border: none;
+    margin-top:10px ;
+    padding: 15px 25px 10px 10px;
+    border-radius: 290px;
+    border: 1px solid rgba(32, 119, 119, 0.467);
+    font-weight: bold;
+}
+.btn-facebook i {
+    position: relative;
+    left: -12px;
+}
+.btn-facebook:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-Apple{
+    width:50%;;
+    background-color: #121212;
+    color: white;
+    border: none;
+    margin-top:10px ;
+    padding: 15px 25px 10px 10px;
+    border-radius: 290px;
+    border: 1px solid rgba(32, 119, 119, 0.467);
+    font-weight: bold;
+} 
+.btn-Apple i {
+    position: relative;
+    left: -22px;
+}
+.btn-Apple:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.line{
+    border: 1px solid white;
+    width: 90%;
+    opacity: 0.15;
+    margin:28px 0.35rem 20px 0.35rem;
+}
+.firstp{
+    color: white;
+    background-color:#121212;
+    text-align: start;
+    position: relative;
+    left: -50px;
+}
+
+input{
+    border: none;
+    width:100%;
+    background-color: #121212;
+    padding: 15px 25px 10px 10px;
+    position: relative;
+    bottom: 6px;
+    border: 1px solid rgba(32, 119, 119, 0.467);
+    color: whitesmoke;
+    
+}
+input:hover{
+    border: 1px solid white;
+}
+form{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items:center;
+    padding:  0 !important;
+    margin: 0 !important;
+}
+label{
+    background-color: #121212;
+}

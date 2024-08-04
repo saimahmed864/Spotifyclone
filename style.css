@@ -319,7 +319,9 @@
     align-items: center;
     background-color: inherit;
 }
-
+.sticky-nav-options a{
+    background-color: #0d0c0c;
+}
 #bg1 {
     font-size: 1rem;
     background-color: inherit;
