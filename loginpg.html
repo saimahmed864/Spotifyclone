@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login page-Spotify</title>
     <link rel="stylesheet" href="loginpage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,39 +23,45 @@
     <div class="mains">
 
         <div class="login">
-            <div class="logodiv"><i class="fa-brands fa-spotify fa-2xl logo " style="color: #d7dce5;"></i></div>
+            <div class="logodiv">
+                <i class="fa-brands fa-spotify fa-2xl logo " style="color: #d7dce5;"></i>
+            </div>
             <h1>Log in to Spotify</h1>
-            <!-- <ul class="buttons"> -->
-                <!-- <li type="none"> -->
-                    <button class="btn-google" type="sumbit"><i class="fa-brands fa-google"></i>Sign up with
-                        google</button>
-                <!-- </li> -->
-                <!-- <li type="none"> -->
-                    <button class="btn-facebook" type="sumbit"><i class="fa-brands fa-facebook"></i>Sign up with
-                        facebook</button>
-                <!-- </li> -->
-                <!-- <li type="none"> -->
-                    <button class="btn-Apple" type="sumbit"><i class="fa-brands fa-apple"
-                            style="color: #ebeff4;"></i>Sign up with Apple</button>
-                <!-- </li> -->
-            <!-- </ul> -->
+            <button class="btn-google" type="sumbit"><i class="fa-brands fa-google"></i>Sign up with google</button>
+            <button class="btn-facebook" type="sumbit"><i class="fa-brands fa-facebook"
+                    style="color: #315696;"></i></i>Sign up with facebook</button><button class="btn-Apple"
+                type="sumbit"><i class="fa-brands fa-apple fa-xl"></i>Sign up with Apple</button>
             <div class="line"></div>
-            <form>
-                <label for="email">
-                    <p class="firstp">Email or Username</p>
-                </label>
+            <div class="forms">
+                <form>
+                    <label for="email">
+                        <p class="firstp">Email or Username</p>
+                    </label>
                     <input type="email" name="" id="email" placeholder="Email or Username">
-                <label for="pass">
-                    <p class="firstp">Password</p>
-                </label>
+                    <label for="pass">
+                        <p class="Secondp">Password</p>
+                    </label>
                     <input type="email" name="" id="pass" placeholder="Password">
-                    <button class="btn-Apple" type="sumbit"><i class="fa-brands fa-apple"
-                        style="color: #ebeff4;"></i>Sign up with Apple</button>
-                       
-            </form>
-            <div class="line"></div>
+                    <div class="input">
+                        <label class="switch">
+                            <input type="checkbox" class="button" id="check">
+                            <span class="slider" id="slider"></span>
+                        </label>
+                        <label for="check" class="label">Remember me</label>
+                    </div>
+                    <button class="btn-submit" type="sumbit"></i>Login</button>
+                </form>
+            </div>
+            <a class="forgotanchor">Forgot your password?</a>
+            <div class="line">
+            </div>
+            <p class="a"><span class="loginp">Don't have an account?</span><a href="./Signup.html" class="signup" style="opacity: 1;">Sign up for spotify</a></p>
         </div>
     </div>
+    <div class="footer">
+        <p class="desc">This site is captured by reCaptcha by the Google <a>Privacy Policy</a> and <a>Terms of Service</a>apply</p>
+    </div>
+    <script src="loginpage.js"></script>
 </body>
 
 </html>
