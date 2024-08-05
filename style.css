@@ -28,7 +28,7 @@
 
 .main-content {
 
-    width: 840px;
+    width: 85%;
     margin-top: 0.5rem;
     border-radius: 0.5rem;
     overflow: auto;
@@ -404,7 +404,7 @@ h2 {
 .card{
     background-color: #121212;
     border-radius: 0.3rem;
-    width: 9.6rem;
+    width: 11rem;
 }
 
 .card1{
